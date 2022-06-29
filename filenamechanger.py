@@ -1,6 +1,6 @@
 import os
 
-f_path = os.chdir(r'C:\Users\lukasz.przystalski\Dokumenty\programowanie\python\small_projects\filenamechange\files')
+f_path = os.chdir(r'C:\Users\*path*\filenamechange\files')
 
 for index, f in enumerate(os.listdir()):
     #print(os.path.splitext(f))
